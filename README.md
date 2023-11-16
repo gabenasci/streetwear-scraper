@@ -6,6 +6,11 @@ Foram adotadas duas estratégias para lidar com a paginação de dados. Os sites
 ## Para executar o scraper
 1. Instale Node.js
 2. Clone este repositório
-3. Instale as dependências do projeto ```npm i```
-4. Na pasta raiz do projeto, execute ```node ./index.js```
+3. Navegue para o diretório do projeto
+3. Instale as dependências do projeto, execute ```npm i``` no diretório raiz do projeto
+4. Execute ```node ./index.js``` no diretório raiz do projeto
 5. Veja o dataset criado em ```scraping_dataset.json``` na pasta raiz
+
+## Integrantes
+1. Gabriel Andrade Borges Nascimento
+2. Martina Klippel Brehm
