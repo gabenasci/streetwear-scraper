@@ -5,6 +5,7 @@ Foram adotadas duas estratégias para lidar com a paginação de dados. Os sites
 
 ## Para executar o scraper
 1. Instale Node.js
-2. Baixe este repositório ```git clone https://github.com/gabenasci/streetwear-scraper.git```
-3. Na pasta raíz do projeto, execute ```node ./index.js```
-4. Veja o dataset criado em ```scraping_dataset.json``` na pasta raíz
+2. Clone este repositório
+3. Instale as dependências do projeto ```npm i```
+4. Na pasta raiz do projeto, execute ```node ./index.js```
+5. Veja o dataset criado em ```scraping_dataset.json``` na pasta raiz
