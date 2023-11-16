@@ -7,9 +7,9 @@ Foram adotadas duas estratégias para lidar com a paginação de dados. Os sites
 1. Instale Node.js
 2. Clone este repositório
 3. Navegue para o diretório do projeto
-3. Instale as dependências do projeto, execute ```npm i``` no diretório raiz do projeto
-4. Execute ```node ./index.js``` no diretório raiz do projeto
-5. Veja o dataset criado em ```scraping_dataset.json``` na pasta raiz
+3. Instale as dependências do projeto, execute ```npm i``` 
+4. Execute ```node ./index.js```
+5. Veja o dataset criado em ```scraping_dataset.json``` no diretório raiz do projeto
 
 ## Integrantes
 1. Gabriel Andrade Borges Nascimento
