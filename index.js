@@ -278,24 +278,24 @@ async function scrapeBolovo(url) {
   }
 }
 (async () => {
-  // console.log("Scraping site [1/4]")
-  // const dustProducts = await scrapeDust(clothingStoreUrls.dust)
+  console.log("Scraping site [1/4]")
+  const dustProducts = await scrapeDust(clothingStoreUrls.dust)
   
-  // console.log("Scraping site [2/4]")
-  // const bawProducts = await scrapeBaw(clothingStoreUrls.baw)
+  console.log("Scraping site [2/4]")
+  const bawProducts = await scrapeBaw(clothingStoreUrls.baw)
   
   console.log("Scraping site [3/4]")
   const fussProducts = await scrapeFuss(clothingStoreUrls.fuss)
 
-  // console.log("Scraping site [4/4]")
-  // const bolovoProducts = await scrapeBolovo(clothingStoreUrls.bolovo)
+  console.log("Scraping site [4/4]")
+  const bolovoProducts = await scrapeBolovo(clothingStoreUrls.bolovo)
   
 
   const scrapingReport = {
-    // dust: dustProducts,
-    // baw: bawProducts,
+    dust: dustProducts,
+    baw: bawProducts,
     fuss: fussProducts,
-    // bolovo: bolovoProducts,
+    bolovo: bolovoProducts,
   };
 
   // console.log(scrapingReport);
